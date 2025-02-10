@@ -1,0 +1,58 @@
+# Fichiers et dossiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+.env/
+*.venv
+
+# Fichiers de logs et bases de données locales
+*.log
+db.sqlite3
+db.sqlite
+
+# Configurations spécifiques à l'IDE et éditeurs de texte
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Dépendances installées
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Caches et fichiers temporaires
+*.tmp
+*.swp
+*.swo
+
+# Fichiers de tests et couvertures
+.tox/
+.nox/
+coverage/
+*.coverage
+.cache
+
+# Fichiers spécifiques à Jupyter Notebook
+.ipynb_checkpoints/
+
+# Clés et fichiers sensibles
+.env
+.env.local
+config.json
+secrets.json
+
+# Docker
+*.pid
+
+# PyCharm
+*.iml
+.idea/
+*.ipr
+*.iws
+out/
+
+# Autres
+.DS_Store
+Thumbs.db
